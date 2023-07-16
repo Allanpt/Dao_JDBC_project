@@ -1,11 +1,29 @@
 package app;
 
-import model.entities.Department;
+import model.dao.DaoFactory;
+import model.dao.SellerDao;
+import model.entities.Seller;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class Program {
     public static void main(String[] args) {
 
-        Department obj = new Department(1, "Accountants");
-        System.out.println(obj);
+        SellerDao sellerDao = DaoFactory.createSellerDao();
+
+        System.out.println("=== TEST 1 seller findById ===");
+        Seller seller = sellerDao.findById(3);
+        System.out.println(seller);
+
+        System.out.println();
+
+        System.out.println("=== TEST 2 seller findAll ===");
+        List<Seller> list = sellerDao.findAll();
+
+        for (Seller obj : list){
+            System.out.println(obj);
+        }
+
     }
 }
