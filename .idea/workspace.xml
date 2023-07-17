@@ -4,17 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae23af6b-dc92-4256-a3d5-3ddba4b87dd2" name="Changes" comment="Create Department Class">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/dao/DaoFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/dao/DepartmentDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/dao/SellerDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/dao/impl/DepartmentDaoJDBC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/dao/impl/SellerDaoJDBC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+    <list default="true" id="ae23af6b-dc92-4256-a3d5-3ddba4b87dd2" name="Changes" comment="Create FindByID, FindAll at SellerDaoJDBC class">
+      <change afterPath="$PROJECT_DIR$/src/app/Program_department.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/entities/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/entities/Department.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Program_seller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/dao/DaoFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/dao/DaoFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/dao/impl/DepartmentDaoJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/dao/impl/DepartmentDaoJDBC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/dao/impl/SellerDaoJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/dao/impl/SellerDaoJDBC.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,13 +70,22 @@
       <option name="project" value="LOCAL" />
       <updated>1689256394499</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Create FindByID, FindAll at SellerDaoJDBC class">
+      <option name="closed" value="true" />
+      <created>1689508954412</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1689508954412</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create project patterns" />
     <MESSAGE value="Create Department Class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create Department Class" />
+    <MESSAGE value="Create FindByID, FindAll at SellerDaoJDBC class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create FindByID, FindAll at SellerDaoJDBC class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -89,6 +94,15 @@
           <properties class="db.DbException" package="db" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/model/dao/impl/SellerDaoJDBC.java</url>
+          <line>105</line>
+          <properties class="model.dao.impl.SellerDaoJDBC" method="findById">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

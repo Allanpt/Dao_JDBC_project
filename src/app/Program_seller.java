@@ -4,10 +4,9 @@ import model.dao.DaoFactory;
 import model.dao.SellerDao;
 import model.entities.Seller;
 
-import java.util.ArrayList;
 import java.util.List;
 
-public class Program {
+public class Program_seller {
     public static void main(String[] args) {
 
         SellerDao sellerDao = DaoFactory.createSellerDao();
