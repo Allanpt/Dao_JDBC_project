@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae23af6b-dc92-4256-a3d5-3ddba4b87dd2" name="Changes" comment="Create FindByID, FindAll at SellerDaoJDBC class">
-      <change afterPath="$PROJECT_DIR$/src/app/Program_department.java" afterDir="false" />
+    <list default="true" id="ae23af6b-dc92-4256-a3d5-3ddba4b87dd2" name="Changes" comment="SellerDaoJDBC class complete, DepartmentDaoJDBC insert and delete complete">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Program_seller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/dao/DaoFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/dao/DaoFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Program_department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Program_department.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/dao/impl/DepartmentDaoJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/dao/impl/DepartmentDaoJDBC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/dao/impl/SellerDaoJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/dao/impl/SellerDaoJDBC.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,14 +75,23 @@
       <option name="project" value="LOCAL" />
       <updated>1689508954412</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="SellerDaoJDBC class complete, DepartmentDaoJDBC insert and delete complete">
+      <option name="closed" value="true" />
+      <created>1689606722114</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1689606722114</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create project patterns" />
     <MESSAGE value="Create Department Class" />
     <MESSAGE value="Create FindByID, FindAll at SellerDaoJDBC class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create FindByID, FindAll at SellerDaoJDBC class" />
+    <MESSAGE value="SellerDaoJDBC class complete, DepartmentDaoJDBC insert and delete complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="SellerDaoJDBC class complete, DepartmentDaoJDBC insert and delete complete" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
