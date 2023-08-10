@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae23af6b-dc92-4256-a3d5-3ddba4b87dd2" name="Changes" comment="SellerDaoJDBC class complete, DepartmentDaoJDBC insert and delete complete">
+    <list default="true" id="ae23af6b-dc92-4256-a3d5-3ddba4b87dd2" name="Changes" comment="DepartmentDaoJDBC and Program_department complete">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Program_department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Program_department.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/dao/impl/DepartmentDaoJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/dao/impl/DepartmentDaoJDBC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db/DbException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/DbException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db/DbIntegrityException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/DbIntegrityException.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +25,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2SWFFnTFiLsGM6wjfXkr3vW1waG" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -37,9 +40,10 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/Java-IntelliJ/projects/Dao_JDBC_project&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;android.project.structure&quot;
   }
 }</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -83,7 +87,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689606722114</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="DepartmentDaoJDBC and Program_department complete">
+      <option name="closed" value="true" />
+      <created>1689678976687</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1689678976687</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -91,7 +103,8 @@
     <MESSAGE value="Create Department Class" />
     <MESSAGE value="Create FindByID, FindAll at SellerDaoJDBC class" />
     <MESSAGE value="SellerDaoJDBC class complete, DepartmentDaoJDBC insert and delete complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="SellerDaoJDBC class complete, DepartmentDaoJDBC insert and delete complete" />
+    <MESSAGE value="DepartmentDaoJDBC and Program_department complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="DepartmentDaoJDBC and Program_department complete" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -100,16 +113,11 @@
           <properties class="db.DbException" package="db" />
           <option name="timeStamp" value="1" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/model/dao/impl/SellerDaoJDBC.java</url>
-          <line>105</line>
-          <properties class="model.dao.impl.SellerDaoJDBC" method="findById">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
